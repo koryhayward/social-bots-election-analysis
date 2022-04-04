@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[45]:
-
-
 # Import libraries
 import os
 import tweepy as tw
@@ -19,10 +13,6 @@ import time
 from pathlib import Path
 import glob
 import sqlite3
-
-
-# In[4]:
-
 
 # Read in Twitter API keys and token information from stored environment variables
 api_key = os.environ.get('TWITTER_API_KEY')
