@@ -160,7 +160,7 @@ candidate_twitter_info = pd.DataFrame(candidate_twitter_info)
 
 """
 
-This section depends on the structure of the collated data. It will need to be amended across excutions.
+This section depends on the structure of the collated data. It will need to be amended across executions.
 The below is an example of cleaning data for Texas. 
 
 """
@@ -299,7 +299,7 @@ candidate_twitter_info.reset_index(level = 0, inplace = True, drop = True)
 """
 
 The search to surface potential general election candidates wasn't 100 % accurate. 
-So given the list of candidates obtained from the Wikimedia API, we manually searched to see if a given 
+So given the list of candidates obtained from scraping Wikipedia, we manually searched to see if a given 
 candidate in fact had a Twitter account. For those that do have accounts, 
 instantiate a list of their handles to pass to Twitter once again and repeat the process above. 
 
