@@ -66,7 +66,7 @@ for file in os.listdir():
 
 """
 
-Candidates for a given state were sourced using the Wikimedia API. The information returned is a list of lists.
+Candidates for a given state were sourced via web-scrape (BeautifulSoup). The information returned is a list of lists.
 As structured, this cannot be fed to the API to find Twitter accounts. 
 Instead, convert the list of lists to a string, then replace extraneous / offending characters appropriately.
 Finally, remove the last two characters of the string -- they will be ", ".
